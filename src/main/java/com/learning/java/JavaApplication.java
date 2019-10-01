@@ -21,14 +21,25 @@ public class JavaApplication {
 //		custArrayList.add("v");
 //		custArrayList.reomve("Bharath");
 //		custArrayList.printAll();
+//
+//		CustomLinkedList custLinkedList=new CustomLinkedList();
+//		custLinkedList.add("Bharath");
+//		custLinkedList.add("Kumar");
+//		custLinkedList.add("s");
+//		custLinkedList.add("v");
+//		custLinkedList.remove("Kumar");
+//		custLinkedList.printAll();
+		
+		
+	HashMapCustom hashMap=new HashMapCustom();
+	hashMap.add("Bharath1","Kumar");
+	hashMap.add("Bharath5","Kumar111111111");
+	hashMap.add("Bharath2","Kumar");
+	hashMap.add("Bharath3","Kumar");
+	hashMap.show();
+	
+	
 
-		CustomLinkedList custLinkedList=new CustomLinkedList();
-		custLinkedList.add("Bharath");
-		custLinkedList.add("Kumar");
-		custLinkedList.add("s");
-		custLinkedList.add("v");
-		custLinkedList.remove("Kumar");
-		custLinkedList.printAll();
 	}
 
 	
