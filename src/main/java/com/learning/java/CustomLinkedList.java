@@ -48,11 +48,11 @@ public class CustomLinkedList {
 	public void remove(String data) {
 		Node rooNode = this.node;
 
-		while (!this.node.getData().equals(data)) {
-			this.node = this.node.getNextNode();
+		while (!rooNode.getData().equals(data)) {
+			rooNode =rooNode.getNextNode();
 		}
-		this.node=this.node.getNextNode();
-//		this.node = rooNode;
+		Node tempNode=rooNode.getNextNode();
+		this.node.setNode(tempNode);;
 	}
 
 	public void printAll() {
